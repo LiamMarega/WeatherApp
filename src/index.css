@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://librosostenibilidad.files.wordpress.com/2017/03/paisaje-cultura-sostenibilidad.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.lead {
+  -webkit-text-stroke: 2px black;
+  color: transparent;
+}
+
+.container {
+  text-align: center;
+  align-items: center;
+  padding: 8px;
+  width: fit-content;
+}
+
+p.nombre {
+  font-weight: bold;
+}
+
+.jumbotron {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(125, 129, 68, 0);
+  padding: 0px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.info {
+  color: white;
+  text-shadow: 3px 8px 5px black;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+svg {
+  font-weight: bold;
+  width: 900px;
+  padding: 0px;
+  margin: 0px;
+}

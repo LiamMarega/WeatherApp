@@ -1,0 +1,70 @@
+body {
+  background-color: #91d1ed;
+}
+
+.contenedor {
+  display: flex;
+  border: #006d9c solid 3px;
+  background-color: rgba(59, 174, 223, 0.5);
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 330px;
+  height: 175px;
+  margin: 50px;
+  float: left;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px rgba(35, 124, 162, 0.62);
+  transition: width 0.6s, height 0.6s, transform 0.6s;
+}
+
+.contenedor:hover {
+  /* tranformamos el elemento al pasar el mouse por encima al doble de
+         su tamaño con scale. */
+  transform: scale(1.1);
+}
+
+.boton {
+  background-color: #ec2626;
+  position: relative;
+  right: 0;
+  border: black solid 1px;
+  color: white;
+  margin: 10px;
+  border-radius: 5px;
+  margin-bottom: auto;
+}
+
+.boton:hover {
+  cursor: pointer;
+}
+
+.nombre {
+  -webkit-text-stroke: 5px black;
+}
+
+.informacion {
+  margin-left: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+h4 {
+  padding-right: 0px;
+  margin: 0 auto;
+  font-weight: 1000;
+  font-size: 20px;
+  text-decoration: none;
+    color: rgb(38, 37, 37);
+}
+
+h4:hover{
+  text-decoration: none;
+  color: rgb(38, 37, 37);
+}
+
+a{
+  text-decoration: none;
+  color: rgb(38, 37, 37);
+}
