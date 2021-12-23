@@ -1,6 +1,11 @@
-.container {
-  width: 200px;
-  height: 100px;
+.containerCiudad {
+  width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
 }
 
 .boton {
@@ -10,10 +15,16 @@
 
 .texto {
 
+
   padding: 35px;
   border: rgb(146 192 226 / 70%) solid 5px;
   background-color: rgb(129 168 197 / 68%);
   border-radius: 30px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
 
 }
 
